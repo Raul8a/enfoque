@@ -10,7 +10,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <meta name="base_url" content="{{url()}}">
   <meta name="author" content="Víctor Manuel Gutiérrez Carrilo, Raul Ochoa Álvarez, Alan Sinue Pastor Piña">
-  <title>@yield('titulo','Sistema de Información Ejecutiva')</title>
+  <title>@yield('titulo','Gestor de enfoque')</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.5 -->
@@ -69,7 +69,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>BRE</b></span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b>Gestor </b>BRE</span>
+        <span class="logo-lg"><b>Enfoque </b>Colima</span>
       </a>
 
       <!-- Header Navbar -->
@@ -150,24 +150,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <li class="header">MENÚ</li>
             <!-- Optionally, you can add icons to the links -->
             <!-- Recuerda agergar class="active" -->
-             <li class="treeview">
-              <a href="#"><i class="fa fa-search"></i> <span>Consultas</span> <i class="fa fa-angle-left pull-right"></i></a>
-              <ul class="treeview-menu">
-                <li><a href="{{url('consulta/documento.html')}}">Documentos</a></li>
-                <li><a href="{{url('consulta/epa.html')}}">EPA's</a></li>
-              </ul>
-            </li>
-            <li><a href="{{url('reuniones.html')}}"><i class="fa fa-group"></i> <span>Reuniones</span></a></li>
-            <li><a href="{{url('archivos.html')}}"><i class="fa fa-file-pdf-o"></i> <span>Documentos</span></a></li>
-            <li><a href="{{url('inegi.html')}}"><i class="fa fa-bar-chart"></i> <span>INEGI </span></a></li>
-            <li><a href="{{url('videos.html')}}"><i class="fa fa-video-camera"></i> <span>Videos Aguascalientes</span></a></li>
-            <li><a href="{{url('dependencias.html')}}"><i class="fa fa-institution"></i> <span>Dependencias</span></a></li>
+             <li ><a href="#"><i class="fa fa-image"></i> <span>Galerias</span> </a> </li>
+             <li>
+              <a href="#"><i class="fa fa-bullhorn "></i> <span>Eventos</span> </a>
+               
+             </li>
+            <!-- <li><a href="{{url('reuniones.html')}}"><i class="fa fa-group"></i> <span>Reuniones</span></a></li>
             
             <li><a href="{{url('sectores.html')}}"><i class="fa fa-sitemap"></i> <span>Sectores</span></a></li>
             <li class="treeview">
               <a href="#"><i class="fa fa-black-tie"></i> <span>Directorio</span> <i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
-                <li><a href="{{url('contactos.html')}}">Administración</a></li>
+                <li><a href="{{url('contactos.html')}}">Administración</a></li> -->
                 <!-- <li><a href="#">Contactos</a></li> -->
                <!--  <li><a href="#">Anfitriones</a></li>
                 <li><a href="#">Responsables EPA's</a></li> -->
@@ -175,10 +169,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </li>
             <!-- <li><a href="{{url('usuarios.html')}}"><i class="fa fa-user"></i> <span>Usuarios </span></a></li> -->
           </ul><!-- /.sidebar-menu -->
-          <div class="container-logo-estado">
-            <img src="{{asset('assets/images/escudocolima.png')}}" alt="" class="img-responsive">
-          </div>
-        </section>
+          </section>
         <!-- /.sidebar -->
       </aside>
 
@@ -209,12 +200,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- To the right -->
         <div class="pull-right hidden-xs">
           <div class="container-logo">
-            <img src="{{asset('assets/images/devcraft.png')}}" alt="" class="logo-devcraft">
+            <!-- <img src="{{asset('assets/img/devcraft.png')}}" alt="" class="logo-devcraft"> -->
           </div>
           @yield('pull-right','')
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; {{date('Y')}} <a href="#">ITC</a>.</strong> Todos los derechos reservados.
+        <strong>Copyright &copy; {{date('Y')}} <a href="#">FRAGMENTS</a>.</strong> Todos los derechos reservados.
       </footer>
 
       
