@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<link rel="stylesheet" href="css/Sindex.css">
-  	<link rel="stylesheet" href="{{asset('assets/css/Sindex.css')}}">
+  	<link rel="stylesheet" href="{{asset('assets/css/enfoque/Sindex.css')}}">
   	<link href="//cdn.bootcss.com/animate.css/3.4.0/animate.css" rel="stylesheet">
 
 	@yield('link')

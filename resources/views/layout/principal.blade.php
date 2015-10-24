@@ -150,10 +150,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <li class="header">MENÚ</li>
             <!-- Optionally, you can add icons to the links -->
             <!-- Recuerda agergar class="active" -->
-             <li ><a href="#"><i class="fa fa-image"></i> <span>Galerias</span> </a> </li>
+             <li ><a href="#"><i class="fa fa-image"></i> <span>Galerías</span> </a> </li>
              <li>
-              <a href="#"><i class="fa fa-bullhorn "></i> <span>Eventos</span> </a>
-               
+              <a href="#"><i class="fa fa-group "></i> <span>Eventos</span> </a>
+             </li>
+                          <li>
+              <a href="#"><i class="fa fa-bullhorn "></i> <span>Publicidad</span> </a>
              </li>
             <!-- <li><a href="{{url('reuniones.html')}}"><i class="fa fa-group"></i> <span>Reuniones</span></a></li>
             
@@ -178,8 +180,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            <a href="{{url()}}"><span class="fa fa-home"></span></a>@yield('page_header','page_header')
-            <small>@yield('desc_opc','desc_opc')</small>
+          <!--   <a href="{{url()}}"><span class="fa fa-home"></span></a>@yield('page_header','')
+            <small>@yield('desc_opc','')</small> -->
           </h1>
           <!-- <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
